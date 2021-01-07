@@ -41,7 +41,7 @@ const getSearch = e => {
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">search</button>
       </form>
-      <div>
+      <div className="recipes">
       {recipes.map(recipe =>(
         <Recipe
         key={recipe.recipe.label}

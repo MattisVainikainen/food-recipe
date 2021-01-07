@@ -1,6 +1,7 @@
 .App{
   min-height: 100vh;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  list-style: none;
 }
 
 .search-form{
@@ -27,4 +28,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  list-style: none;
+}
+
+.list-container{
+  list-style: none;
 }
